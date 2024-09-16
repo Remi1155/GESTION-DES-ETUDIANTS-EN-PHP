@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  /* Style pour le conteneur de formulaire */
+
+  #container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+  }
+
+
+  /* Style pour les titres */
+  h1 {
+    text-align: center;
+    color: #007BFF;
+  }
+
+  /* Style des labels et des champs */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Style des boutons radio */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  /* Style du bouton de mise à jour */
+  input[type="submit"] , button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+  }
+
+  button {
+    background-color: gray;
+    margin: 10px 0;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
